@@ -5,12 +5,15 @@ body {
   background-size: cover;
 }
 .cajas {
-  border: 2px solid white;
   position: relative;
   width: 40%;
   height: 280px;
   top: 60vh;
   left: 80vh;
+}
+
+.caja__circle {
+
 }
 
 .caja1 img {
@@ -22,13 +25,6 @@ body {
   transform: rotate(20deg);
 }
 
-.caja2 img {
-  width: 250px;
-  height: 200px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
 
 .caja3 {
   width: 300px;
@@ -72,4 +68,33 @@ body {
   position: absolute;
   bottom: 28px;
   right: 120px;
+}
+
+.caja__torre img {
+  width: 280px;
+  height: 110px;
+  position: absolute;
+  bottom: 0;
+  left: 45vh;
+  filter: drop-shadow(10px 5px 5px black);
+}
+
+.caja__circle {
+  background: linear-gradient(rgb(185, 11, 11), rgb(87, 86, 86));
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  border-radius: 50px 50px 0px 0px;
+  right: 18vh;
+  top: 30vh;
+}
+
+.caja__circle-blu {
+  background: linear-gradient(rgb(6, 47, 94), rgb(5, 63, 110));
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  left: 58vh;
+  bottom: 20px;
 }
